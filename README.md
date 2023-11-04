@@ -20,12 +20,12 @@ Used Local Cache files for text embedding model from Hugging Face
     Langchain is a library that provides tools for building and deploying large-scale NLP applications. The project uses Langchain to integrate the different components of the system, such as the PDF text extractor, the text-to-embedding converter, the FAISS database, and the OpenAI GPT API. This simplifies the development and deployment of the system.
 
     6. Provided a chat interface for users to query the summarized PDF text using streamlit.
-    The project creates a Streamlit app that loads the pre-trained LLM and the FAISS database.
-    The app also creates a chat interface using Streamlit widgets.
-    When a user types in a query, the app sends the query to the LLM.
-    The LLM generates a response, which is then displayed to the user in the chat interface.
-    The app also stores the conversation history in memory, so that the LLM can use it to inform subsequent responses.
-    The Streamlit app can be deployed to the cloud using a service such as Heroku, so that it can be accessed by users from anywhere in the world.
+    - The project creates a Streamlit app that loads the pre-trained LLM and the FAISS database.
+    - The app also creates a chat interface using Streamlit widgets.
+    - When a user types in a query, the app sends the query to the LLM.
+    - The LLM generates a response, which is then displayed to the user in the chat interface.
+    - The app also stores the conversation history in memory, so that the LLM can use it to inform subsequent responses.
+    - The Streamlit app can be deployed to the cloud using a service such as Heroku, so that it can be accessed by users from anywhere in the world.
 
     Overall, the project "Chat with PDF using Hugging Face and Open AI" with Conversation Buffer Memory and Conversational Retrieval Chain makes effective use of LLMs to provide a chat interface for users to query and summarize multiple PDF text documents efficiently.
 
