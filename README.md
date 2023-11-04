@@ -3,7 +3,7 @@ Worked with both both Open AI API and HuggingFace API for PDF Text Extraction an
 
 Used Local Cache files for text embedding model from Hugging Face
 
-# Description about the Project
+## Description about the Project
     1. Used Langchain tools to convert PDF text data into vector data and store it in a FAISS database.
     This allows the project to represent PDF text data in a way that can be efficiently processed by LLMs. LLMs can then be used to query and summarize the PDF text data quickly and accurately.
 
